@@ -276,6 +276,7 @@ main .questions{
     width: 50%;
     height: 480px;
     margin: 0 auto 150px;
+    background-color: #a2d39b;
     border: 2px solid black;
 }
 
@@ -284,6 +285,42 @@ main .questions{
 
 
 /* ----------- inizio footer --------- */
+footer{
+    height: 600px;
+    padding-top: 100px;
+    background-color: black;
+}
 
+.footer-container{
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    border: 2px solid white;
+}
+
+.footer-container .info{
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.footer-container .box{
+    width: 18%;
+    height: 100%;
+    border: 2px solid white;
+}
+
+.footer-container hr{
+    width: 12%;
+}
+
+footer select{
+    border: none;
+    color: lightgray;
+    font-size: 18px;
+    background-color: black;
+    margin: 35px 0;
+}
 
 /* ----------- fine footer --------- */
