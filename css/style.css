@@ -2,46 +2,60 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .flex{
     display: flex;
 }
 
-
+.blue-btn{
+    background-color: blue;
+    color: white;
+    padding: 7px 14px;
+}
 
 /* --------- inizio header -------- */
 
 header{
     width: 100%;
-    height: 100px;
+    height: 80px;
     justify-content: space-between;
-    background-color: red;
+    font-size: 14px;
+    /* background-color: red; */
 }
 
 .header-left{
-    width: 30%;
+    /* width: 30%;  */
     height: 100%;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .header-right{
-    width: 30%;
+    /* width: 30%; */
     height: 100%;
-    background-color: blue;
+    /* background-color: blue; */
 }
 
-.header-left a{
-    width: 25%;
+header a{
+    /* width: 25%;  */
     height: 100%;
-    border: 2px solid black;
+    text-decoration: none;
+    color: black;
 }
 
 .header-right a{
-    width: 25%;
+    /* width: 25%; */
     height: 100%;
-    border: 2px solid black;
 }
+
+header .box{
+    height: 100%;
+    padding: 0 20px;
+    align-items: center;
+}
+
+
 
 /* --------- fine header -------- */
 
