@@ -45,3 +45,47 @@ header{
 
 /* --------- fine header -------- */
 
+main{
+    overflow-x: hidden;
+}
+
+main .jumbotron-container{
+    width: 100vw;
+    height: 800px;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: lightblue;
+}
+
+.jumbotron-center{
+    width: 55%;
+    height: 90%;
+    /* background-color: aquamarine; */
+}
+
+.jumbotron-center .title{
+    height: 30%;
+    background-color: brown;
+}
+
+.jumbotron-center .content{
+    height: 70%;
+    padding-top: 50px;
+    /* background-color: green; */
+}
+
+.jumbotron-center .content .sx{
+    width: 35%;
+    height: 100%;
+    background-color: blanchedalmond;
+}
+
+.jumbotron-center .content .dx{
+    width: 65%;
+    height: 100%;
+    background-color: darkkhaki;
+}
+
+.jumbotron-center .dx img{
+    margin-top: 80px;
+}
