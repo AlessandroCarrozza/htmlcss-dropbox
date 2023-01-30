@@ -88,16 +88,15 @@ main .jumbotron-container{
 .jumbotron-center .dx img{
     margin-top: 80px;
 }
-
 /* fine jumbotron */
+
 
 /* inizio main centrale */
 main .container{
     width: 50%;
-    height: 1000px;
     margin: auto;
     margin-top: 200px;
-    background-color: lightblue;
+    /* background-color: lightblue; */
 } 
 
 main .container .radio-options{
@@ -127,4 +126,71 @@ main .card-plan .card-info{
     height: 500px;
     border: 2px solid black;
     margin: 50px auto;
+}
+
+main .personal-plan{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    border: 3px solid black;
+}
+
+main .personal-plan-top{
+    width: 100%;
+    height: 20%;
+    border: 2px solid black;
+}
+
+main .personal-plan-info{
+    width: 90%;
+    height: 70%;
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 15px;
+}
+
+main .partner-finder{
+    width: 100%;
+    height: 450px;
+    margin: 170px 0;
+    border: 3px solid black;
+}
+
+main .partner-finder .sx{
+    width: 60%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+main .partner-finder .dx{
+    width: 40%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+main .operations{
+    width: 100%;
+    margin-bottom: 170px;
+    border: 3px solid black;
+}
+
+main .operations .column{
+    width: 100%;
+    height: 450px;
+    justify-content: space-between;
+    margin-top: 30px;
+    border: 2px solid black;
+}
+
+main .operations .operation{
+    width: 30%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+main .clients-link{
+    width: 60%;
+    height: 180px;
+    margin-bottom: 150px;
+    border: 3px solid black;
 }
