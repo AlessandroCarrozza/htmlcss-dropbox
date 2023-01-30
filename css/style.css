@@ -8,3 +8,40 @@
     display: flex;
 }
 
+
+
+/* --------- inizio header -------- */
+
+header{
+    width: 100vw;
+    height: 100px;
+    justify-content: space-between;
+    background-color: red;
+}
+
+.header-left{
+    width: 30%;
+    height: 100%;
+    background-color: green;
+}
+
+.header-right{
+    width: 30%;
+    height: 100%;
+    background-color: blue;
+}
+
+.header-left a{
+    width: 25%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+.header-right a{
+    width: 25%;
+    height: 100%;
+    border: 2px solid black;
+}
+
+/* --------- fine header -------- */
+
