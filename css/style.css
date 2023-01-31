@@ -12,7 +12,7 @@
 .blue-btn{
     background-color: #0061ff;
     color: white;
-    padding: 7px 14px;
+    padding: 10px 15px;
 }
 
 /* --------- inizio header -------- */
@@ -26,6 +26,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 2;
     /* background-color: red; */
 }
 
@@ -163,7 +164,6 @@ main .radio-options div:last-child i{
 }
 
 
-
 main .business-plans{
     width: 100%;
     justify-content: space-between;
@@ -172,22 +172,88 @@ main .business-plans{
 
 main .business-plans .card-plan{
     width: 30%;
-    height: 800px;
-    border: 5px solid black;
+    /* height: 800px; */
+    border: 2px solid lightgrey;
 }
 
 main .card-plan .card-top{
     width: 100%;
     height: 50px;
-    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid lightgrey;
+}
+
+main .card-top i{
+    padding-right: 6px;
 }
 
 main .card-plan .card-info{
     width: 85%;
-    height: 500px;
-    border: 2px solid black;
+    /* height: 500px; */
+    /* border: 2px solid black;  */
     margin: 50px auto;
 }
+
+main .card-info .price, main .card-info .per-month{
+    display: block;
+    font-size: 14px;
+}
+
+main .card-info .price{
+    padding-top: 10px;
+}
+
+main .card-info .per-month{
+    padding-top: 5px;
+    color: gray;
+}
+
+main .card-info .datas{
+    padding: 40px 0;
+}
+
+main .datas > div{
+    padding: 8px 0;
+    font-size: 13.8px;
+}
+
+main .card-info .blue-btn{
+    width: 100%;
+    text-align: center;
+}
+
+main .card-info .link-to-buy{
+    padding: 25px 0;
+    font-size: 14px;
+}
+
+main .card-info > a{
+    text-decoration: none;
+}
+
+main .card-info hr{
+    width: 25%;
+}
+
+main .card-info h5{
+    font-size: 14px;
+    padding: 40px 0 10px;
+}
+
+main .card-info .salient-points{
+    padding-top: 15px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
 
 main .personal-plan{
     width: 100%;
