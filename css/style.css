@@ -12,7 +12,7 @@
 .blue-btn{
     background-color: #0061ff;
     color: white;
-    padding: 10px 15px;
+    /* padding: 10px 15px; */
 }
 
 /* --------- inizio header -------- */
@@ -54,6 +54,10 @@ header a{
     height: 100%;
 }
 
+.header-right .blue-btn{
+    padding: 8px 18px;
+}
+
 header .box{
     height: 100%;
     padding: 0 20px;
@@ -75,7 +79,7 @@ main .jumbotron-container{
     justify-content: center;
     align-items: flex-end;
     padding-top: 80px;
-    background-color: lightblue;
+    background-color: #b4d0e7;
 }
 
 .jumbotron-center{
@@ -102,6 +106,10 @@ main .jumbotron-container{
     width: 35%;
     height: 100%;
     /* background-color: blanchedalmond; */
+}
+
+.jumbotron-center .start-trial .blue-btn{
+    padding: 10px 20px;
 }
 
 .jumbotron-center .content .jumbotron-img{
@@ -195,6 +203,10 @@ main .card-plan .card-info{
     margin: 50px auto;
 }
 
+main .card-plan .card-info a .blue-btn{
+    padding: 10px 15px;
+}
+
 main .card-info .price, main .card-info .per-month{
     display: block;
     font-size: 14px;
@@ -215,7 +227,7 @@ main .card-info .datas{
 
 main .datas > div{
     padding: 8px 0;
-    font-size: 13.8px;
+    font-size: 14.2px;
 }
 
 main .card-info .blue-btn{
@@ -228,8 +240,13 @@ main .card-info .link-to-buy{
     font-size: 14px;
 }
 
-main .card-info > a{
+main .card-info a{
     text-decoration: none;
+}
+
+main .card-info .link-to-buy a{
+    color: #0061ff;
+    text-decoration: underline;
 }
 
 main .card-info hr{
@@ -241,40 +258,81 @@ main .card-info h5{
     padding: 40px 0 10px;
 }
 
-main .card-info .salient-points{
+main .card-info .salient-point{
     padding-top: 15px;
     font-size: 14px;
 }
 
-
-
-
-
-
-
-
-
+main .salient-point i{
+    color: #0061ff;
+}
 
 main .personal-plan{
     width: 100%;
-    height: 300px;
+    height: 285px;
     margin-top: 50px;
-    border: 3px solid black;
+    border: 2px solid lightgrey;
 }
 
 main .personal-plan-top{
     width: 100%;
-    height: 20%;
-    border: 2px solid black;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid lightgrey;
+}
+
+main .personal-plan-top i{
+    padding-right: 6px;
 }
 
 main .personal-plan-info{
-    width: 90%;
-    height: 70%;
-    border: 2px solid black;
+    width: 95%;
+    height: 60%;
+    /* border: 2px solid black; */
     margin: auto;
-    margin-top: 15px;
+    margin-top: 30px;
+    justify-content: space-between;
 }
+
+main .personal-plan-info .sx{
+    height: 100%;
+    width: 65%;
+    /* background-color: #b4d0e7; */
+}
+
+main .personal-plan-info .dx{
+    height: 100%;
+    width: 27%;
+    /* background-color: #ffd830; */
+}
+
+main .personal-plan-info .sx .contact{
+    display: inline-block;
+    padding: 15px 0 60px;
+    font-size: 14px;
+} 
+
+main .personal-plan-info .sx p{
+    font-size: 13px;
+} 
+
+main .personal-plan-info .dx .blue-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+main .personal-plan-info .dx a{
+    text-decoration: none;
+    text-align: center;
+}
+
+
+
+
 
 main .partner-finder{
     width: 100%;
