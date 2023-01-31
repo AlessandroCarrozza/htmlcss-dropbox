@@ -22,6 +22,10 @@ header{
     height: 80px;
     justify-content: space-between;
     font-size: 14px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
     /* background-color: red; */
 }
 
@@ -69,6 +73,7 @@ main .jumbotron-container{
     height: 720px;
     justify-content: center;
     align-items: flex-end;
+    padding-top: 80px;
     background-color: lightblue;
 }
 
@@ -105,7 +110,7 @@ main .jumbotron-container{
 }
 
 .jumbotron-center .jumbotron-img img, .jumbotron-center .start-trial{
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .jumbotron-center .blue-btn{
@@ -115,7 +120,7 @@ main .jumbotron-container{
 
 .jumbotron-center .start-trial i{
     font-size: 50px;
-    margin-top: 80px;
+    margin-top: 45px;
 }
 /* fine jumbotron */
 
@@ -128,9 +133,36 @@ main .container{
     /* background-color: lightblue; */
 } 
 
+main .container > h1{
+    font-size: 2.7em;
+}
+
 main .container .radio-options{
     margin: 50px 0;
 }
+
+main .radio-options div{
+    margin-right: 50px;
+    display: inline-block;
+}
+
+main .radio-options div:first-child i{
+    color: #0061ff;
+    font-size: 20px;
+    padding-right: 5px;
+    position: relative;
+    top: 2px;
+}
+
+main .radio-options div:last-child i{
+    color: grey;
+    font-size: 20px;
+    padding-right: 5px;
+    position: relative;
+    top: 2px;
+}
+
+
 
 main .business-plans{
     width: 100%;
@@ -241,7 +273,7 @@ main .sponsor-container .box{
     flex-wrap: wrap;
 }
 
-main .sponsor-container .box .sponsor{
+main .sponsor-container .box .sponsor-square{
     width: calc(100% / 2);
     height: calc(100% / 2);
     justify-content: center;
@@ -256,35 +288,35 @@ main .sponsor-container .sponsor-center{
     margin: 50px auto 0;
 }
 
-.sponsor.one{
+.sponsor-square.one{
     background-color: #a2d39b;
 }
 
-.sponsor.two{
+.sponsor-square.two{
     background-color: #61082b;
 }
 
-.sponsor.three{
+.sponsor-square.three{
     background-color: #0093ce;
 }
 
-.sponsor.four{
+.sponsor-square.four{
     background-color: #ff1c1c;
 }
 
-.sponsor.five{
+.sponsor-square.five{
     background-color: #d5001f;
 }
 
-.sponsor.six{
+.sponsor-square.six{
     background-color: #b4d0e7;
 }
 
-.sponsor.seven{
+.sponsor-square.seven{
     background-color: #0d2481;
 }
 
-.sponsor.eight{
+.sponsor-square.eight{
     background-color: #ffd830;
 }
 
