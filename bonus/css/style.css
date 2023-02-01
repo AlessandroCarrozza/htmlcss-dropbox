@@ -1,0 +1,661 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.blue-btn{
+    background-color: #0061ff;
+    color: white;
+    /* padding: 10px 15px; */
+}
+
+/* --------- inizio header -------- */
+
+header{
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+    font-size: 14px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* background-color: red; */
+}
+
+.header-left{
+    /* width: 30%;  */
+    height: 100%;
+    /* background-color: green; */
+}
+
+.header-right{
+    /* width: 30%; */
+    height: 100%;
+    /* background-color: blue; */
+}
+
+header a{
+    /* width: 25%;  */
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+.header-right a{
+    /* width: 25%; */
+    height: 100%;
+}
+
+.header-right .blue-btn{
+    padding: 8px 18px;
+}
+
+header .box{
+    height: 100%;
+    padding: 0 20px;
+    align-items: center;
+}
+
+
+
+/* --------- fine header -------- */
+
+
+
+/* ---------- inizio main ----------- */
+
+/* inizio jumbotron */
+main .jumbotron-container{
+    width: 100%;
+    height: 800px;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 90px;
+    background-color: #b4d0e7;
+}
+
+.jumbotron-center{
+    width: 60%;
+    height: 90%;
+}
+
+.jumbotron-center .title{
+    height: 25%;
+    /* background-color: brown; */
+}
+
+.jumbotron-center h1{
+    font-size: 4.8em;
+    font-weight: 800;
+}
+
+.jumbotron-center .content{
+    height: 70%;
+    padding-top: 20px;
+}
+
+.jumbotron-center .content .start-trial{
+    width: 35%;
+    height: 100%;
+    /* background-color: blanchedalmond; */
+}
+
+.jumbotron-center .start-trial .blue-btn{
+    padding: 10px 20px;
+}
+
+.jumbotron-center .content .jumbotron-img{
+    width: 65%;
+    height: 100%;
+    /* background-color: darkkhaki; */
+}
+
+.jumbotron-center .jumbotron-img img, .jumbotron-center .start-trial{
+    /* margin-top: 50px; */
+    position: relative;
+    top: 70px;
+}
+
+.jumbotron-center .blue-btn{
+    display: inline-block;
+    margin: 30px 0;
+}
+
+.jumbotron-center .start-trial i{
+    font-size: 50px;
+    margin-top: 80px;
+}
+/* fine jumbotron */
+
+
+/* inizio main centrale */
+main .container{
+    width: 50%;
+    margin: auto;
+    margin-top: 200px;
+    /* background-color: lightblue; */
+} 
+
+main .container > h1{
+    font-size: 2.7em;
+}
+
+main .container .radio-options{
+    margin: 50px 0;
+}
+
+main .radio-options div{
+    margin-right: 50px;
+    display: inline-block;
+}
+
+main .radio-options div:first-child i{
+    color: #0061ff;
+    font-size: 20px;
+    padding-right: 5px;
+    position: relative;
+    top: 2px;
+}
+
+main .radio-options div:last-child i{
+    color: lightgrey;
+    font-size: 20px;
+    padding-right: 5px;
+    position: relative;
+    top: 2px;
+}
+
+
+main .business-plans{
+    width: 100%;
+    justify-content: space-between;
+    /* background-color: orange; */
+}
+
+main .business-plans .card-plan{
+    width: 30%;
+    /* height: 800px; */
+    border: 1px solid lightgrey;
+}
+
+main .card-plan .card-top{
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid lightgrey;
+    font-size: 14px;
+}
+
+main .card-top i{
+    padding-right: 6px;
+}
+
+main .card-plan .card-info{
+    width: 85%;
+    /* height: 500px; */
+    /* border: 2px solid black;  */
+    margin: 30px auto;
+    padding: 0 7px;
+}
+
+main .card-plan .card-info a .blue-btn{
+    padding: 10px 15px;
+}
+
+main .card-info .price, main .card-info .per-month{
+    display: block;
+    font-size: 14px;
+}
+
+main .card-info .price{
+    padding-top: 10px;
+}
+
+main .card-info .per-month{
+    padding-top: 5px;
+    color: gray;
+}
+
+main .card-info .datas{
+    padding: 40px 0;
+}
+
+main .datas > div{
+    padding: 20px 0 0 14px;
+    font-size: 14.2px;
+    text-indent: -8px;
+}
+
+main .card-info .blue-btn{
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    padding: 12px 0;
+}
+
+main .card-info .link-to-buy{
+    padding: 25px 0;
+    font-size: 14px;
+}
+
+main .card-info a{
+    text-decoration: none;
+}
+
+main .card-info .link-to-buy a{
+    color: #0061ff;
+    text-decoration: underline;
+}
+
+main .card-info hr{
+    width: 25%;
+    height: 1px;
+    background-color: lightgray;
+    border: none;
+}
+
+main .card-info h5{
+    font-size: 14px;
+    padding: 40px 0 10px;
+}
+
+main .card-info .salient-point{
+    padding: 15px 0 0 12px;
+    font-size: 14px;
+    text-indent: -8px;
+}
+
+main .salient-point i{
+    color: #0061ff;
+}
+
+main .personal-plan{
+    width: 100%;
+    height: 270px;
+    margin-top: 50px;
+    border: 2px solid lightgrey;
+}
+
+main .personal-plan-top{
+    width: 100%;
+    height: 15%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid lightgrey;
+    font-size: 14px;
+}
+
+main .personal-plan-top i{
+    padding-right: 6px;
+}
+
+main .personal-plan-info{
+    width: 95%;
+    /* height: 50%; */
+    /* border: 2px solid black; */
+    margin: auto;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+main .personal-plan-info .sx{
+    height: 100%;
+    width: 65%;
+    /* background-color: #b4d0e7; */
+}
+
+main .personal-plan-info .dx{
+    height: 100%;
+    width: 27%;
+    /* background-color: #ffd830; */
+}
+
+main .personal-plan-info .sx .contact{
+    display: inline-block;
+    padding: 15px 0 60px;
+    font-size: 14px;
+} 
+
+main .personal-plan-info .sx p{
+    font-size: 13px;
+} 
+
+main .personal-plan-info .dx .blue-btn{
+    display: inline-block;
+    padding: 10px 20px;
+    top: 0;
+    right: 0;
+    width: 100%;
+    font-size: 14px;
+}
+
+main .personal-plan-info .dx a{
+    text-decoration: none;
+    text-align: center;
+}
+
+
+main .partner-finder{
+    width: 100%;
+    height: 500px; 
+    margin: 170px 0;
+    /* border: 3px solid black; */
+}
+
+main .partner-finder .sx{
+    width: 60%;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+
+main .partner-finder .dx{
+    width: 40%;
+    height: 100%;
+    padding: 50px 0 0 50px;
+    /* border: 2px solid black; */
+}
+
+main .partner-finder .dx .white-btn{
+    border: 1px solid black; 
+    padding: 10px 15px;
+}
+
+main .partner-finder .dx a{
+    color: black;
+    text-decoration: none;
+}
+
+main .partner-finder .dx p{
+    padding: 15px 0 50px 0;
+}
+
+
+
+main .operations{
+    width: 100%;
+    margin-bottom: 170px;
+    /* border: 3px solid black; */
+}
+
+main .operations .column{
+    width: 100%;
+    /* height: 450px; */
+    justify-content: space-between;
+    margin-top: 40px;
+    /* border: 2px solid black; */
+}
+
+main .operations .operation{
+    width: 30%;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+
+main .operations h1{
+    font-size: 2.3em;
+}
+
+main .operations p{
+    padding-top: 30px;
+    font-size: 14px;
+}
+
+
+
+
+main .clients-link{
+    width: 60%;
+    height: 200px;
+    margin-bottom: 150px;
+    /* border: 3px solid black; */
+}
+
+main .clients-link h1{
+    font-size: 2.2em;
+    padding-bottom: 70px;
+}
+
+main .clients-link a{
+    color: #0061ff;
+}
+
+
+/* fine main centrale */
+
+
+
+/* inizio parte sponsor */
+main .sponsor-container{
+    width: 100%;
+    height: 640px;
+    /* background-color: red; */
+}
+
+main .sponsor-container .box{
+    width: calc(100% / 3);
+    height: 100%;
+    /* border: 2px solid black; */
+    flex-wrap: wrap;
+}
+
+main .sponsor-container .box .sponsor-square{
+    width: calc(100% / 2);
+    height: calc(100% / 2);
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+main .sponsor-container .box.center{
+    background-color: #f5f5f5;
+} 
+
+main .sponsor-container .sponsor-center{
+    width: 80%;
+    height: 60%;
+    /* border: 2px solid black; */
+    margin: 50px auto 0;
+}
+
+main .sponsor-container .sponsor-center hr{
+    width: 20%;
+    height: 2px;
+    background-color: lightgray;
+    border: none;
+    margin: 40px 0;
+} 
+
+main .sponsor-container .sponsor-center p{
+    font-size: 14px;
+}
+
+.sponsor-square.one{
+    background-color: #a2d39b;
+    border: 15px solid rgba(255, 255, 255, 0.5);
+}
+
+.sponsor-square.two{
+    background-color: #61082b;
+}
+
+.sponsor-square.three{
+    background-color: #0093ce;
+}
+
+.sponsor-square.four{
+    background-color: #ff1c1c;
+}
+
+.sponsor-square.five{
+    background-color: #d5001f;
+}
+
+.sponsor-square.six{
+    background-color: #b4d0e7;
+}
+
+.sponsor-square.seven{
+    background-color: #0d2481;
+}
+
+.sponsor-square.eight{
+    background-color: #ffd830;
+}
+
+/* fine parte sponsor */
+
+
+
+/* inizio parte finale main */
+
+main .free-trial{
+    width: 100%;
+    height: 300px;
+    background-color: #b4d0e7;
+    margin-bottom: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+main .free-trial-center{
+    width: 50%;
+    height: 100px;
+    justify-content: space-between;
+}
+
+main .free-trial-center .sx{
+    width: 50%;
+    height: 100%;
+}
+
+main .free-trial-center .dx{
+    width: 28%;
+    height: 100%;
+}
+
+main .free-trial-center .sx h1{
+    font-size: 2.4em;
+    color: #610525;
+}
+
+main .free-trial-center .white-btn{
+    display: inline-block;
+    color: black;
+    border: 1px solid #b4d0e7;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    background-color: white;
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+
+main .questions{
+    width: 50%;
+    margin: 0 auto 170px;
+    /* background-color: #a2d39b;  */
+    /* border: 2px solid black; */
+}
+
+main .questions h1{
+    font-size: 2.4em;
+    padding-bottom: 50px;
+}
+
+main .questions hr{
+    height: 1px;
+    background-color: gray;
+    border: none;
+} 
+
+main .questions .question{
+    padding: 40px 0;
+}
+
+main .questions .question .angle-down{
+    font-size: 14px;
+    position: relative;
+    left: 300px;
+}
+
+/* fine parte finale main */
+
+/* ------------ fine main ----------- */
+
+
+/* ----------- inizio footer --------- */
+footer{
+    height: 500px;
+    padding-top: 80px;
+    background-color: black;
+}
+
+.footer-container{
+    width: 60%;
+    height: 60%; 
+    margin: auto;
+    /* border: 2px solid white; */
+}
+
+.footer-container .info{
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    /* margin-bottom: 100px; */
+}
+
+.footer-container .box{
+    width: 18%;
+    height: 100%;
+    /* border: 2px solid white; */
+}
+
+.footer-container .info .box{
+    color: white;
+}
+
+.footer-container .info .box h2{
+    padding-bottom: 25px;
+}
+
+.footer-container .box a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-container .box a li{
+    padding: 7px 0;
+    list-style-type: none;
+}
+
+.footer-container hr, .footer-container .select{
+    margin-top: 70px;
+} 
+
+
+.footer-container hr{
+    width: 12%;
+}
+
+footer .language{
+    border: none;
+    color: gray;
+    font-size: 16px;
+    background-color: black;
+    margin: 35px 0;
+}
+
+footer .language i{
+    padding-right: 3px;
+} 
+/* ----------- fine footer --------- */
