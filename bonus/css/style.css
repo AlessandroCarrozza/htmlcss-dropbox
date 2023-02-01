@@ -12,7 +12,12 @@
 .blue-btn{
     background-color: #0061ff;
     color: white;
+    transition: background-color 0.5s;
     /* padding: 10px 15px; */
+}
+
+.blue-btn:hover{
+    background-color: #307ffd;
 }
 
 /* --------- inizio header -------- */
