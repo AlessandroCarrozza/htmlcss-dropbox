@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 
 .flex{
@@ -14,7 +14,6 @@
     background-color: #0061ff;
     color: white;
     transition: background-color 0.5s;
-    /* padding: 10px 15px; */
 }
 
 .blue-btn:hover{
@@ -34,30 +33,23 @@ header{
     left: 0;
     z-index: 2;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    /* background-color: red; */
 }
 
 .header-left{
-    /* width: 30%;  */
     height: 100%;
-    /* background-color: green; */
 }
 
 .header-right{
-    /* width: 30%; */
     height: 100%;
-    /* background-color: blue; */
 }
 
 header a{
-    /* width: 25%;  */
     height: 100%;
     text-decoration: none;
     color: black;
 }
 
 .header-right a{
-    /* width: 25%; */
     height: 100%;
 }
 
@@ -105,7 +97,6 @@ main .jumbotron-container{
 
 .jumbotron-center .title{
     height: 25%;
-    /* background-color: brown; */
 }
 
 .jumbotron-center h1{
@@ -121,7 +112,6 @@ main .jumbotron-container{
 .jumbotron-center .content .start-trial{
     width: 35%;
     height: 100%;
-    /* background-color: blanchedalmond; */
 }
 
 .jumbotron-center .start-trial .blue-btn{
@@ -131,11 +121,9 @@ main .jumbotron-container{
 .jumbotron-center .content .jumbotron-img{
     width: 65%;
     height: 100%;
-    /* background-color: darkkhaki; */
 }
 
 .jumbotron-center .jumbotron-img img, .jumbotron-center .start-trial{
-    /* margin-top: 50px; */
     position: relative;
     top: 70px;
 }
@@ -158,7 +146,6 @@ main .container{
     width: 50%;
     margin: auto;
     margin-top: 200px;
-    /* background-color: lightblue; */
 } 
 
 main .container > h1{
@@ -194,12 +181,10 @@ main .radio-options div:last-child i{
 main .business-plans{
     width: 100%;
     justify-content: space-between;
-    /* background-color: orange; */
 }
 
 main .business-plans .card-plan{
     width: 30%;
-    /* height: 800px; */
     border: 1px solid lightgrey;
 }
 
@@ -218,8 +203,6 @@ main .card-top i{
 
 main .card-plan .card-info{
     width: 85%;
-    /* height: 500px; */
-    /* border: 2px solid black;  */
     margin: 30px auto;
     padding: 0 7px;
 }
@@ -317,8 +300,6 @@ main .personal-plan-top i{
 
 main .personal-plan-info{
     width: 95%;
-    /* height: 50%; */
-    /* border: 2px solid black; */
     margin: auto;
     margin-top: 30px;
     justify-content: space-between;
@@ -327,13 +308,11 @@ main .personal-plan-info{
 main .personal-plan-info .sx{
     height: 100%;
     width: 65%;
-    /* background-color: #b4d0e7; */
 }
 
 main .personal-plan-info .dx{
     height: 100%;
     width: 27%;
-    /* background-color: #ffd830; */
 }
 
 main .personal-plan-info .sx .contact{
@@ -365,20 +344,17 @@ main .partner-finder{
     width: 100%;
     height: 500px; 
     margin: 170px 0;
-    /* border: 3px solid black; */
 }
 
 main .partner-finder .sx{
     width: 60%;
     height: 100%;
-    /* border: 2px solid black; */
 }
 
 main .partner-finder .dx{
     width: 40%;
     height: 100%;
     padding: 50px 0 0 50px;
-    /* border: 2px solid black; */
 }
 
 main .partner-finder .dx .white-btn{
@@ -395,26 +371,20 @@ main .partner-finder .dx p{
     padding: 15px 0 50px 0;
 }
 
-
-
 main .operations{
     width: 100%;
     margin-bottom: 170px;
-    /* border: 3px solid black; */
 }
 
 main .operations .column{
     width: 100%;
-    /* height: 450px; */
     justify-content: space-between;
     margin-top: 40px;
-    /* border: 2px solid black; */
 }
 
 main .operations .operation{
     width: 30%;
     height: 100%;
-    /* border: 2px solid black; */
 }
 
 main .operations h1{
@@ -426,14 +396,10 @@ main .operations p{
     font-size: 14px;
 }
 
-
-
-
 main .clients-link{
     width: 60%;
     height: 200px;
     margin-bottom: 150px;
-    /* border: 3px solid black; */
 }
 
 main .clients-link h1{
@@ -454,13 +420,11 @@ main .clients-link a{
 main .sponsor-container{
     width: 100%;
     height: 640px;
-    /* background-color: red; */
 }
 
 main .sponsor-container .box{
     width: calc(100% / 3);
     height: 100%;
-    /* border: 2px solid black; */
     flex-wrap: wrap;
 }
 
@@ -469,7 +433,6 @@ main .sponsor-container .box .sponsor-square{
     height: calc(100% / 2);
     justify-content: center;
     align-items: center;
-    /* border: 1px solid black; */
 }
 
 main .sponsor-container .box.center{
@@ -479,7 +442,6 @@ main .sponsor-container .box.center{
 main .sponsor-container .sponsor-center{
     width: 80%;
     height: 60%;
-    /* border: 2px solid black; */
     margin: 50px auto 0;
 }
 
@@ -579,8 +541,6 @@ main .free-trial-center .white-btn{
 main .questions{
     width: 50%;
     margin: 0 auto 170px;
-    /* background-color: #a2d39b;  */
-    /* border: 2px solid black; */
 }
 
 main .questions h1{
@@ -604,6 +564,15 @@ main .questions .question .angle-down{
     left: 300px;
 }
 
+main .question p{
+    padding-top: 30px;
+    display: none;
+}
+
+main .questions .question:hover main .question p{
+    display: block;
+}
+
 /* fine parte finale main */
 
 /* ------------ fine main ----------- */
@@ -620,20 +589,17 @@ footer{
     width: 60%;
     height: 60%; 
     margin: auto;
-    /* border: 2px solid white; */
 }
 
 .footer-container .info{
     width: 100%;
     height: 100%;
     justify-content: space-between;
-    /* margin-bottom: 100px; */
 }
 
 .footer-container .box{
     width: 18%;
     height: 100%;
-    /* border: 2px solid white; */
 }
 
 .footer-container .info .box{
@@ -652,6 +618,10 @@ footer{
 .footer-container .box a li{
     padding: 7px 0;
     list-style-type: none;
+}
+
+.footer-container .box a li:hover{
+    text-decoration: underline;
 }
 
 .footer-container hr, .footer-container .select{
