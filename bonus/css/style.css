@@ -63,9 +63,18 @@ header .box{
     height: 100%;
     padding: 0 20px;
     align-items: center;
+    position: relative;
 }
 
-
+header a div:not(.logo):hover::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    background-color: black;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+}
 
 /* --------- fine header -------- */
 
