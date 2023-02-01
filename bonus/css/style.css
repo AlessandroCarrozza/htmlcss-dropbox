@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .flex{
@@ -147,6 +148,7 @@ main .jumbotron-container{
 .jumbotron-center .start-trial i{
     font-size: 50px;
     margin-top: 80px;
+    color: black;
 }
 /* fine jumbotron */
 
