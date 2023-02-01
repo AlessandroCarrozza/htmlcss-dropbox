@@ -47,22 +47,10 @@ header{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
-.header-left{
-    height: 100%;
-}
-
-.header-right{
-    height: 100%;
-}
-
 header a{
     height: 100%;
     text-decoration: none;
     color: black;
-}
-
-.header-right a{
-    height: 100%;
 }
 
 .header-right .blue-btn{
@@ -107,9 +95,9 @@ main .jumbotron-container{
     height: 90%;
 }
 
-.jumbotron-center .title{
+/* .jumbotron-center .title{
     height: 25%;
-}
+}  */
 
 .jumbotron-center h1{
     font-size: 4.8em;
@@ -117,13 +105,12 @@ main .jumbotron-container{
 }
 
 .jumbotron-center .content{
-    height: 70%;
-    padding-top: 20px;
+    height: 65%;
+    padding-top: 30px;
 }
 
 .jumbotron-center .content .start-trial{
     width: 35%;
-    height: 100%;
 }
 
 .jumbotron-center .start-trial .blue-btn{
@@ -132,12 +119,11 @@ main .jumbotron-container{
 
 .jumbotron-center .content .jumbotron-img{
     width: 65%;
-    height: 100%;
 }
 
 .jumbotron-center .jumbotron-img img, .jumbotron-center .start-trial{
     position: relative;
-    top: 70px;
+    top: 20px;
 }
 
 .jumbotron-center .blue-btn{
@@ -147,7 +133,8 @@ main .jumbotron-container{
 
 .jumbotron-center .start-trial i{
     font-size: 50px;
-    margin-top: 80px;
+    position: relative;
+    top: 80px;
     color: black;
 }
 /* fine jumbotron */
@@ -465,6 +452,11 @@ main .sponsor-container .sponsor-center hr{
     margin: 40px 0;
 } 
 
+main .sponsor-square img{
+    filter: brightness(0) invert(1);
+}
+
+
 main .sponsor-container .sponsor-center p{
     font-size: 14px;
 }
@@ -568,22 +560,41 @@ main .questions hr{
 
 main .questions .question{
     padding: 40px 0;
+    position: relative;
 }
 
 main .questions .question .angle-down{
     font-size: 14px;
-    position: relative;
-    left: 300px;
+    position: absolute;
+    left: 900px;
 }
+
+main .questions .question .angle-up{
+    font-size: 14px;
+    position: absolute;
+    left: 900px;
+    visibility: hidden;
+}
+
+main .questions .question:hover .angle-down{
+    visibility: hidden;
+}
+
+main .questions .question:hover .angle-up{
+    visibility: visible;
+}
+
 
 main .question p{
     padding-top: 30px;
     display: none;
 }
 
-main .questions .question:hover main .question p{
+main .questions .question:hover p{
     display: block;
 }
+
+
 
 /* fine parte finale main */
 
