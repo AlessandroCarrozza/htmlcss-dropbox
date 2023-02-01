@@ -76,10 +76,10 @@ header .box{
 /* inizio jumbotron */
 main .jumbotron-container{
     width: 100%;
-    height: 720px;
+    height: 800px;
     justify-content: center;
     align-items: flex-end;
-    padding-top: 80px;
+    padding-top: 90px;
     background-color: #b4d0e7;
 }
 
@@ -89,7 +89,7 @@ main .jumbotron-container{
 }
 
 .jumbotron-center .title{
-    height: 30%;
+    height: 25%;
     /* background-color: brown; */
 }
 
@@ -120,7 +120,9 @@ main .jumbotron-container{
 }
 
 .jumbotron-center .jumbotron-img img, .jumbotron-center .start-trial{
-    margin-top: 40px;
+    /* margin-top: 50px; */
+    position: relative;
+    top: 70px;
 }
 
 .jumbotron-center .blue-btn{
@@ -130,7 +132,7 @@ main .jumbotron-container{
 
 .jumbotron-center .start-trial i{
     font-size: 50px;
-    margin-top: 45px;
+    margin-top: 80px;
 }
 /* fine jumbotron */
 
@@ -165,7 +167,7 @@ main .radio-options div:first-child i{
 }
 
 main .radio-options div:last-child i{
-    color: grey;
+    color: lightgrey;
     font-size: 20px;
     padding-right: 5px;
     position: relative;
@@ -182,15 +184,16 @@ main .business-plans{
 main .business-plans .card-plan{
     width: 30%;
     /* height: 800px; */
-    border: 2px solid lightgrey;
+    border: 1px solid lightgrey;
 }
 
 main .card-plan .card-top{
     width: 100%;
-    height: 50px;
+    height: 40px;
     justify-content: center;
     align-items: center;
-    border-bottom: 2px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    font-size: 14px;
 }
 
 main .card-top i{
@@ -201,7 +204,8 @@ main .card-plan .card-info{
     width: 85%;
     /* height: 500px; */
     /* border: 2px solid black;  */
-    margin: 50px auto;
+    margin: 30px auto;
+    padding: 0 7px;
 }
 
 main .card-plan .card-info a .blue-btn{
@@ -227,14 +231,16 @@ main .card-info .datas{
 }
 
 main .datas > div{
-    padding: 8px 0;
+    padding: 20px 0 0 14px;
     font-size: 14.2px;
+    text-indent: -8px;
 }
 
 main .card-info .blue-btn{
     width: 100%;
     text-align: center;
     font-size: 14px;
+    padding: 12px 0;
 }
 
 main .card-info .link-to-buy{
@@ -253,7 +259,7 @@ main .card-info .link-to-buy a{
 
 main .card-info hr{
     width: 25%;
-    height: 2px;
+    height: 1px;
     background-color: lightgray;
     border: none;
 }
@@ -264,8 +270,9 @@ main .card-info h5{
 }
 
 main .card-info .salient-point{
-    padding-top: 15px;
+    padding: 15px 0 0 12px;
     font-size: 14px;
+    text-indent: -8px;
 }
 
 main .salient-point i{
@@ -274,7 +281,7 @@ main .salient-point i{
 
 main .personal-plan{
     width: 100%;
-    height: 285px;
+    height: 270px;
     margin-top: 50px;
     border: 2px solid lightgrey;
 }
@@ -285,6 +292,7 @@ main .personal-plan-top{
     justify-content: center;
     align-items: center;
     border-bottom: 2px solid lightgrey;
+    font-size: 14px;
 }
 
 main .personal-plan-top i{
@@ -293,7 +301,7 @@ main .personal-plan-top i{
 
 main .personal-plan-info{
     width: 95%;
-    height: 60%;
+    /* height: 50%; */
     /* border: 2px solid black; */
     margin: auto;
     margin-top: 30px;
@@ -383,7 +391,7 @@ main .operations .column{
     width: 100%;
     /* height: 450px; */
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 40px;
     /* border: 2px solid black; */
 }
 
@@ -531,12 +539,12 @@ main .free-trial-center .sx{
 }
 
 main .free-trial-center .dx{
-    width: 25%;
+    width: 28%;
     height: 100%;
 }
 
 main .free-trial-center .sx h1{
-    font-size: 2.2em;
+    font-size: 2.4em;
     color: #610525;
 }
 
@@ -549,19 +557,19 @@ main .free-trial-center .white-btn{
     font-size: 14px;
     background-color: white;
     padding: 10px 15px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 main .questions{
     width: 50%;
-    margin: 0 auto 150px;
+    margin: 0 auto 170px;
     /* background-color: #a2d39b;  */
     /* border: 2px solid black; */
 }
 
 main .questions h1{
-    font-size: 2.2em;
-    padding-bottom: 30px;
+    font-size: 2.4em;
+    padding-bottom: 50px;
 }
 
 main .questions hr{
@@ -571,11 +579,11 @@ main .questions hr{
 } 
 
 main .questions .question{
-    padding: 30px 0;
+    padding: 40px 0;
 }
 
 main .questions .question .angle-down{
-    font-size: 12px;
+    font-size: 14px;
     position: relative;
     left: 300px;
 }
